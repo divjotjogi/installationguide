@@ -67,27 +67,27 @@ $ docker run hello-world
 
 #!/bin/bash <br />
 apt-get update -y <br />
-apt-get install -y linux-image-extra-$(uname -r) linux-image-extra-virtual
-apt-get install -y apt-transport-https ca-certificates curl software-properties-common
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-apt-key fingerprint 0EBFCD88
-add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
-apt-get update -y 
-apt-get install -y docker-ce
-echo "done"
+apt-get install -y linux-image-extra-$(uname -r) linux-image-extra-virtual <br />
+apt-get install -y apt-transport-https ca-certificates curl software-properties-common <br />
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - <br />
+apt-key fingerprint 0EBFCD88 <br />
+add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" <br />
+apt-get update -y <br /> 
+apt-get install -y docker-ce <br />
+echo "done" <br />
 
 ## Centos
 
-#!/bin/bash
-echo "starting installation , This installation requires internet connectivity"
-yum install -y yum-utils device-mapper-persistent-data lvm2
-yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
-yum-config-manager --enable docker-ce-stable
-yum -y install docker-ce
-systemctl start docker
-systemctl enable docker
-docker --version
-echo "Installation completed"
+#!/bin/bash <br />
+echo "starting installation , This installation requires internet connectivity" <br />
+yum install -y yum-utils device-mapper-persistent-data lvm2 <br />
+yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo <br />
+yum-config-manager --enable docker-ce-stable <br />
+yum -y install docker-ce <br />
+systemctl start docker <br />
+systemctl enable docker <br />
+docker --version <br />
+echo "Installation completed" <br />
 
 
 
