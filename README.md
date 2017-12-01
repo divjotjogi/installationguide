@@ -1,8 +1,8 @@
-# installationguide
+# Installation Guide
 
 ## INSTALL on Ubuntu 16 Latest
  
-### Remove older version of Docker if present
+### Remove older version of Docker (Optional)
 $ apt-get remove docker docker-engine 
 
 ### Update 
@@ -46,7 +46,7 @@ Downloaded newer image for hello-world:latest Hello from Docker.
 This message shows that your installation appears to be working correctly.
 
 ## Docker on Centos 7 
-### Uninstall Old versions
+### Uninstall Old versions (Optional)
 $yum remove docker docker-common docker-selinux docker-engine
 
 ### Setup Repository 
