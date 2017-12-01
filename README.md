@@ -65,8 +65,8 @@ $ docker run hello-world
 ## UB 
 
 
-#!/bin/bash
-apt-get update -y
+#!/bin/bash <br />
+apt-get update -y <br />
 apt-get install -y linux-image-extra-$(uname -r) linux-image-extra-virtual
 apt-get install -y apt-transport-https ca-certificates curl software-properties-common
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
