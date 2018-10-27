@@ -1,7 +1,19 @@
-##Virual Box 
+# Guide for making platform ready to Learn 
+1. Download and Install hypervisor to run multiple operating systems on your Laptop. Virtual box virtulisation comes for    flavour windows, Linux and Mac-OS.
+
+
+# Download and Install Virual Box For virtualization  
 https://www.virtualbox.org/wiki/Downloads
 
-# Docker Installation Guide
+2. Download operating system ISO to deploy VMs.Ubuntu is preferred, Though Centos 7 is a good alternative.
+
+# Ubuntu ISO download 
+https://www.ubuntu.com/download/server
+
+# Centos Minimal ISO download
+http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1804.iso
+
+3. Docker Installation Guide
 
 ## INSTALL on Ubuntu Latest
 
@@ -62,6 +74,8 @@ $ systemctl start docker
 $ docker run hello-world  
 
 
+
+## Below are the plain shell scripts for both ubuntu and centos OSes in case you would like to automate the installation piece. Basic knowledge of shell scripting is required though. 
 ## UB 
 
 
@@ -73,7 +87,7 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - <br
 add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" <br />
 apt-get update -y <br /> 
 apt-get install -y docker-ce <br />
-echo "done" <br />
+echo "done Installation completed" <br />
 
 ## Centos
 
@@ -87,18 +101,6 @@ systemctl start docker <br />
 systemctl enable docker <br />
 docker --version <br />
 echo "Installation completed" <br />
-
-## FOLLOW LATEST
-### DOCKER ON Ubunu Latest
-$apt-get update
-$apt-get install -y linux-image-extra-$(uname -r) linux-image-extra-virtual
-$apt-get install -y apt-transport-https ca-certificates curl software-properties-common
-$curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-$add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
-$apt-get update
-$apt-cache policy docker-ce
-$apt-get install -y docker-ce
-$systemctl status docker
 
 
 
