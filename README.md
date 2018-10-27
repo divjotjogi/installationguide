@@ -17,7 +17,7 @@ http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1804.
 
 ## INSTALL on Ubuntu Latest
 
-## NEW Installation
+### NEW Installation
 
 
 ### Update 
