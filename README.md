@@ -1,9 +1,9 @@
 # Installation Guide
 
-## INSTALL on Ubuntu 16 Latest
+## INSTALL on Ubuntu latest Latest
 
 ## NEW Installation
-### DOCKER ON 16.x
+### DOCKER ON Latest
 
 ### Update 
 $ apt-get update
@@ -86,7 +86,7 @@ docker --version <br />
 echo "Installation completed" <br />
 
 ## FOLLOW LATEST
-### DOCKER ON 16.x
+### DOCKER ON Ubunu Latest
 $apt-get update
 $apt-get install -y linux-image-extra-$(uname -r) linux-image-extra-virtual
 $apt-get install -y apt-transport-https ca-certificates curl software-properties-common
