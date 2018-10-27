@@ -1,9 +1,9 @@
 # Installation Guide
 
 ## INSTALL on Ubuntu 16 Latest
- 
-### Remove older version of Docker (Optional)
-$ apt-get remove docker docker-engine 
+
+## NEW Installation
+### DOCKER ON 16.x
 
 ### Update 
 $ apt-get update
@@ -19,9 +19,6 @@ $ apt-get install -y apt-transport-https ca-certificates curl software-propertie
 
 ### Add Docker's official GPG key
 $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-
-### Verify that the key fingerprint is 9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88.
-$ apt-key fingerprint 0EBFCD88
 
 ### Use the following command to set up the stable repository. You always need the stable repository, even if you want to install edge builds as well.
 
@@ -70,7 +67,6 @@ apt-get update -y <br />
 apt-get install -y linux-image-extra-$(uname -r) linux-image-extra-virtual <br />
 apt-get install -y apt-transport-https ca-certificates curl software-properties-common <br />
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - <br />
-apt-key fingerprint 0EBFCD88 <br />
 add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" <br />
 apt-get update -y <br /> 
 apt-get install -y docker-ce <br />
