@@ -1,9 +1,9 @@
-# Installation Guide
+# Docker Installation Guide
 
-## INSTALL on Ubuntu latest Latest
+## INSTALL on Ubuntu Latest
 
 ## NEW Installation
-### DOCKER ON Latest
+
 
 ### Update 
 $ apt-get update
