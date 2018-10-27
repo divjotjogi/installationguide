@@ -1,4 +1,5 @@
 # Guide for making platform ready to Learn 
+## Hardware Minimum : 1 Host (Laptop/system) with 4 GB Ram and 2 CPUs.
 1. Download and Install hypervisor to run multiple operating systems on your Laptop. Virtual box virtulisation comes for    flavour windows, Linux and Mac-OS.
 
 
