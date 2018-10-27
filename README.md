@@ -1,4 +1,12 @@
-# Guide for making platform ready to Learn 
+# Guide for making platform ready to Learn Docker
+## Open or controlled Internet access to below sites.
+- https://www.virtualbox.org/wiki/Downloads
+- http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1804.iso
+- https://download.docker.com
+- https://hub.docker.com/
+- https://docker.io
+- http://mirror.centos.org/centos/
+- http://mirror3.ubuntulinux* 
 ## Hardware Minimum : 1 Host (Laptop/system) with 4 GB Ram and 2 CPUs.
 1. Download and Install hypervisor to run multiple operating systems on your Laptop. Virtual box virtulisation comes for    flavour windows, Linux and Mac-OS.
 
